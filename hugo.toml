@@ -1,0 +1,84 @@
+baseurl      = "https://erengokirmak.com"
+title        = "eren gökırmak"
+languageCode = "en-us"
+theme        = "hello-friend-ng"
+pagination.pagerSize     = 10
+
+
+capitalizeListTitles = false
+pluralizeListTitles = false
+
+[params.author]
+  name = "şükrü eren gökırmak"
+[params.footer]
+  copyright = "eren gökırmak"
+  author = "şükrü eren gökırmak"
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04"
+
+  # Subtitle for home
+  homeSubtitle = "i write and code and everything in-between. this is where to find them."
+
+  # Set disableReadOtherPosts to true in order to hide the links to other posts.
+  disableReadOtherPosts = true
+
+  # Enable sharing buttons, if you like
+  enableSharingButtons = false
+  
+  # Show a global language switcher in the navigation bar
+  enableGlobalLanguageMenu = false
+
+  # Metadata mostly used in document's head
+  description = "şükrü eren gökırmak's blog posts and socials"
+  keywords = "homepage, blog"
+  images = [""]
+
+[taxonomies]
+    category = "blog"
+    tag      = "tags"
+    series   = "series"
+
+[languages]
+  [languages.en]
+    title = "eren gökırmak"
+    keywords = ""
+    copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
+    readOtherPosts = "Read other posts"
+
+  #[languages.en.params]
+    #subtitle  = "blog posts on programming and other shite"
+
+    [languages.en.params.logo]
+      logoText = "eren gökırmak"
+      logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
+
+  # And you can even create generic menu
+  [[menu.main]]
+    identifier = "blog"
+    name       = "Blog"
+    url        = "/posts"
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags"
+
+
+[[params.social]]
+  name = "github"
+  url = "https://github.com/erengokirmak"
+
+[[params.social]]
+  name = "linkedin"
+  url = "https://linkedin.com/in/sukruerengokirmak"
+
+[[params.social]]
+  name = "orcid"
+  url = "https://orcid.org/0009-0003-2128-7872"
