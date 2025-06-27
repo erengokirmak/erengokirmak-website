@@ -70,7 +70,6 @@ pluralizeListTitles = false
     name = "Tags"
     url = "/tags"
 
-
 [[params.social]]
   name = "github"
   url = "https://github.com/erengokirmak"
