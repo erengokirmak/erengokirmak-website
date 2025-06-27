@@ -1,0 +1,26 @@
+{{ define "body" }}
+    <body class="{{ if .Site.Params.backgroundImage }} background-image" style="background-image: url('{{ .Site.Params.backgroundImage }}');" {{ else }}"{{ end }}>
+{{ end }}
+
+{{ define "main" }}
+    <main>
+        <div>
+            {{ if .Site.Params.Portrait.Path }}
+               <img src="{{ .Site.Params.Portrait.Path }}" class="circle" alt="{{ .Site.Params.Portrait.Alt }}" style="max-width:{{ .Site.Params.Portrait.MaxWidth }}" />
+            {{ end }}
+
+            <h1>{{ .Site.Title }}</h1>
+
+            {{ partial "subtitle.html" . }}
+
+                <div>
+                  {{- with .Site.Params.social }}
+                    {{ partial "social-icons.html" . }}
+                  {{- end }}
+                </div>
+            <span>CV:</span>
+            <a href="{{ .Site.BaseURL }}cv_tr.pdf">Türkçe</a>
+            <a href="{{ .Site.BaseURL }}cv_en.pdf">English</a>
+        </div>
+    </main>
+{{ end }}
