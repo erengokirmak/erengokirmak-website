@@ -81,3 +81,7 @@ pluralizeListTitles = false
 [[params.social]]
   name = "orcid"
   url = "https://orcid.org/0009-0003-2128-7872"
+
+[[params.social]]
+  name = "email"
+  url = "mailto:sukruerengokirmak@gmail.com"
