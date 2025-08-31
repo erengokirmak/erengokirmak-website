@@ -1,2 +1,10 @@
+# Build artifacts 
 public/
+
+# Private build files
 upload.sh
+
+# Environment files
+.direnv
+.envrc
+.env
