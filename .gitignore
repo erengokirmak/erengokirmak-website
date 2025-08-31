@@ -1,5 +1,7 @@
 # Build artifacts 
-public/
+public
+resources
+.hugo_build.lock
 
 # Private build files
 upload.sh
