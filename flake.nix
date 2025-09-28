@@ -1,5 +1,5 @@
 {
-  description = "drgokirmak.com dev environment flake";
+  description = "erengokirmak.com dev environment flake";
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-unstable";
