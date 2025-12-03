@@ -3,6 +3,7 @@
 {{ end }}
 
 {{ define "main" }}
+    <div class="content-center">
     <main>
         <div>
             {{ if .Site.Params.Portrait.Path }}
@@ -13,14 +14,15 @@
 
             {{ partial "subtitle.html" . }}
 
-                <div>
-                  {{- with .Site.Params.social }}
-                    {{ partial "social-icons.html" . }}
-                  {{- end }}
-                </div>
+                {{- with .Site.Params.social }}
+                    <div>
+                        {{ partial "social-icons.html" . }}
+                    </div>
+                {{- end }}
             <span>CV:</span>
-            <a href="{{ .Site.BaseURL }}cv_tr.pdf">Türkçe</a>
-            <a href="{{ .Site.BaseURL }}cv_en.pdf">English</a>
+	    <!-- <a href="{{ .Site.BaseURL }}cv_tr.pdf">Türkçe</a> -->
+            <a href="{{ .Site.BaseURL }}sukru_eren_gokirmak_cv_en.pdf">English</a>
         </div>
     </main>
+    </div>
 {{ end }}
