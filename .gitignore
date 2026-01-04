@@ -1,9 +1,30 @@
-# Build artifacts 
-public
-resources
+# Hugo build artifacts
+public/
+resources/
+resources/_gen/
 .hugo_build.lock
 
 # Environment files
 .direnv
 .envrc
 .env
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Node modules (if using npm packages)
+node_modules/
+package-lock.json
