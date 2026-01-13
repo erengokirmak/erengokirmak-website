@@ -20,6 +20,7 @@ homeInfoParams = { title = 'welcome!', content = 'I write and code and everythin
 ShowCodeCopyButtons = true
 ShowBreadCrumbs = true
 ShowRssButtonInSectionTermList = true
+ShowReadingTime = true
 
 [params.profileMode]
 enabled = true
